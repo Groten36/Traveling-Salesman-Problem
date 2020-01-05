@@ -1,0 +1,1 @@
+/usr/bin/c++   -pthread -g   CMakeFiles/PEA.dir/main.cpp.o CMakeFiles/PEA.dir/BranchBound.cpp.o CMakeFiles/PEA.dir/BruteForce.cpp.o CMakeFiles/PEA.dir/Matrix.cpp.o CMakeFiles/PEA.dir/Menu.cpp.o CMakeFiles/PEA.dir/SimulatedAnnealing.cpp.o CMakeFiles/PEA.dir/TabuSearch.cpp.o CMakeFiles/PEA.dir/Timer.cpp.o  -o PEA 
