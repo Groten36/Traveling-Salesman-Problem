@@ -48,7 +48,7 @@ void Matrix::read(std::string fileName){
     ifstream in;
 
             fileName = "/home/magda/CLionProjects/TSP/"+fileName + ".txt";
-    fileName = "/home/magda/CLionProjects/Traveler_Salesman_Problem_1/"+fileName + ".txt";
+
 
     in.open(fileName);
 

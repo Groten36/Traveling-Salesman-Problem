@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/magda/CLionProjects/PEA/BranchBound.cpp" "/home/magda/CLionProjects/PEA/cmake-build-debug/CMakeFiles/PEA.dir/BranchBound.cpp.o"
   "/home/magda/CLionProjects/PEA/BruteForce.cpp" "/home/magda/CLionProjects/PEA/cmake-build-debug/CMakeFiles/PEA.dir/BruteForce.cpp.o"
+  "/home/magda/CLionProjects/PEA/GeneticAlgorithm.cpp" "/home/magda/CLionProjects/PEA/cmake-build-debug/CMakeFiles/PEA.dir/GeneticAlgorithm.cpp.o"
   "/home/magda/CLionProjects/PEA/Matrix.cpp" "/home/magda/CLionProjects/PEA/cmake-build-debug/CMakeFiles/PEA.dir/Matrix.cpp.o"
   "/home/magda/CLionProjects/PEA/Menu.cpp" "/home/magda/CLionProjects/PEA/cmake-build-debug/CMakeFiles/PEA.dir/Menu.cpp.o"
   "/home/magda/CLionProjects/PEA/SimulatedAnnealing.cpp" "/home/magda/CLionProjects/PEA/cmake-build-debug/CMakeFiles/PEA.dir/SimulatedAnnealing.cpp.o"

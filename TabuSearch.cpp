@@ -51,9 +51,5 @@ void TabuSearch::solve() {
     }
 
 
-cout << "\nZnaleziona droga: " << minCost;
-cout << "\nKolejność miast: ";
-for (auto i = 0; i < minPath.size(); i++) {
-cout << " " << minPath[i];
-}
+
 }

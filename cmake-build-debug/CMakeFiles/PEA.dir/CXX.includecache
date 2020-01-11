@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/magda/CLionProjects/PEA/Matrix.h
+iostream
+-
+string
+-
+vector
+-
+
+/home/magda/CLionProjects/PEA/SimulatedAnnealing.cpp
+SimulatedAnnealing.h
+/home/magda/CLionProjects/PEA/SimulatedAnnealing.h
+iostream
+-
+cmath
+-
+cstdlib
+-
+random
+-
+
+/home/magda/CLionProjects/PEA/SimulatedAnnealing.h
+Matrix.h
+/home/magda/CLionProjects/PEA/Matrix.h
+iostream
+-
+vector
+-
+

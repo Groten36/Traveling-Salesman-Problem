@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/PEA.dir/SimulatedAnnealing.cpp.o"
   "CMakeFiles/PEA.dir/TabuSearch.cpp.o"
   "CMakeFiles/PEA.dir/Timer.cpp.o"
+  "CMakeFiles/PEA.dir/GeneticAlgorithm.cpp.o"
   "PEA.pdb"
   "PEA"
 )

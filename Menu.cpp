@@ -17,9 +17,9 @@ Menu::Menu(){
 
 }
 void Menu::launch() {
-    string file;
+    string file="data29";
     int threads;
-    //bb.read(file);
+    ts.read(file);
     //ofstream out;
     while(true){
         // std::cout<< sizeof(start);
@@ -33,7 +33,7 @@ void Menu::launch() {
         std::cout<<"7.Rozwiąż metodą Symulowanego wyżarzania\n";
         std::cout<<"8.Rozwiąz metodą tabu search\n";
         std::cout<<"9.Testy automatyczne\n";
-        std::cout<<"8.Rozwiąz metodą tabu search\n";
+//        std::cout<<"8.Rozwiąz metodą tabu search\n";
 
 
         std::cout<<"0.Wyjdź";

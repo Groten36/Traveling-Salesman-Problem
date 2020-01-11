@@ -96,6 +96,12 @@
 		<Unit filename="/home/magda/CLionProjects/PEA/BruteForce.h">
 			<Option target="PEA"/>
 		</Unit>
+		<Unit filename="/home/magda/CLionProjects/PEA/GeneticAlgorithm.cpp">
+			<Option target="PEA"/>
+		</Unit>
+		<Unit filename="/home/magda/CLionProjects/PEA/GeneticAlgorithm.h">
+			<Option target="PEA"/>
+		</Unit>
 		<Unit filename="/home/magda/CLionProjects/PEA/Matrix.cpp">
 			<Option target="PEA"/>
 		</Unit>

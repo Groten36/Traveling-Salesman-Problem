@@ -72,9 +72,9 @@ void SimulatedAnnealing::solve(){
             curPath=neighbor;
         }else if(((double) rand() / (RAND_MAX)) + 1<propability(curPath,neighbor)){
             curPath=neighbor;
-        }}
+        }
 
-    t=cooling();
+    t=cooling();}
 
 
 minPath=curPath;
