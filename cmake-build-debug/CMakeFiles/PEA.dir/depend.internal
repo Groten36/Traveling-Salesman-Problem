@@ -9,12 +9,17 @@ CMakeFiles/PEA.dir/BruteForce.cpp.o
  /home/magda/CLionProjects/PEA/BruteForce.cpp
  /home/magda/CLionProjects/PEA/BruteForce.h
  /home/magda/CLionProjects/PEA/Matrix.h
+CMakeFiles/PEA.dir/GeneticAlgorithm.cpp.o
+ /home/magda/CLionProjects/PEA/GeneticAlgorithm.cpp
+ /home/magda/CLionProjects/PEA/GeneticAlgorithm.h
+ /home/magda/CLionProjects/PEA/Matrix.h
 CMakeFiles/PEA.dir/Matrix.cpp.o
  /home/magda/CLionProjects/PEA/Matrix.cpp
  /home/magda/CLionProjects/PEA/Matrix.h
 CMakeFiles/PEA.dir/Menu.cpp.o
  /home/magda/CLionProjects/PEA/BranchBound.h
  /home/magda/CLionProjects/PEA/BruteForce.h
+ /home/magda/CLionProjects/PEA/GeneticAlgorithm.h
  /home/magda/CLionProjects/PEA/Matrix.h
  /home/magda/CLionProjects/PEA/Menu.cpp
  /home/magda/CLionProjects/PEA/Menu.h
@@ -35,6 +40,7 @@ CMakeFiles/PEA.dir/Timer.cpp.o
 CMakeFiles/PEA.dir/main.cpp.o
  /home/magda/CLionProjects/PEA/BranchBound.h
  /home/magda/CLionProjects/PEA/BruteForce.h
+ /home/magda/CLionProjects/PEA/GeneticAlgorithm.h
  /home/magda/CLionProjects/PEA/Matrix.h
  /home/magda/CLionProjects/PEA/Menu.h
  /home/magda/CLionProjects/PEA/SimulatedAnnealing.h

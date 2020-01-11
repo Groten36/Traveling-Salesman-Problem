@@ -10,7 +10,7 @@
 #include "SimulatedAnnealing.h"
 #include "TabuSearch.h"
 #include "Timer.h"
-
+#include "GeneticAlgorithm.h"
 class Menu {
     Matrix matrix;
     int menu;
@@ -21,6 +21,7 @@ class Menu {
     SimulatedAnnealing sa;
     Timer timer;
     TabuSearch ts;
+    GeneticAlgorithm ga;
 public:
     Menu();
     void launch();

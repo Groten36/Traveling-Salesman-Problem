@@ -14,6 +14,7 @@ Menu::Menu(){
     this->sa=SimulatedAnnealing();
     this->ts=TabuSearch();
     this->timer=Timer();
+    this->ga=GeneticAlgorithm();
 
 }
 void Menu::launch() {
@@ -42,7 +43,7 @@ void Menu::launch() {
 
         switch(menu){
 
-            case 1:{std::cout<<"Wybierz plik z danymi";std::cin>>file;matrix.read(file);bf.read(file);sa.read(file);ts.read(file); break;}
+            case 1:{std::cout<<"Wybierz plik z danymi";std::cin>>file;matrix.read(file);bf.read(file);sa.read(file);ts.read(file); ga.read(file);break;}
             case 2:matrix.display();break;
             case 3:matrix.random();break;
             case 4:matrix.clear();break;
@@ -51,7 +52,8 @@ void Menu::launch() {
 
             case 7:timer.start();sa.solve();timer.stop();std::cout<<" Czas wykonania: "<<timer.time()<<" milisekund";break;
             case 8:timer.start();ts.solve();timer.stop();std::cout<<" Czas wykonania: "<<timer.time()<<" milisekund";break;
-            case 9:{
+            case 9:ga.solve();
+           /* case 9:{
                 std::ofstream out("TS21.txt");
                 {
                     for(auto i=0;i<3;i++){
@@ -68,7 +70,7 @@ void Menu::launch() {
                         // out.close();
                     }
                     out.close();}
-                break;}
+                break;}*/
 
 
 

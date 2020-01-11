@@ -9,11 +9,16 @@ CMakeFiles/PEA.dir/BruteForce.cpp.o: ../BruteForce.cpp
 CMakeFiles/PEA.dir/BruteForce.cpp.o: ../BruteForce.h
 CMakeFiles/PEA.dir/BruteForce.cpp.o: ../Matrix.h
 
+CMakeFiles/PEA.dir/GeneticAlgorithm.cpp.o: ../GeneticAlgorithm.cpp
+CMakeFiles/PEA.dir/GeneticAlgorithm.cpp.o: ../GeneticAlgorithm.h
+CMakeFiles/PEA.dir/GeneticAlgorithm.cpp.o: ../Matrix.h
+
 CMakeFiles/PEA.dir/Matrix.cpp.o: ../Matrix.cpp
 CMakeFiles/PEA.dir/Matrix.cpp.o: ../Matrix.h
 
 CMakeFiles/PEA.dir/Menu.cpp.o: ../BranchBound.h
 CMakeFiles/PEA.dir/Menu.cpp.o: ../BruteForce.h
+CMakeFiles/PEA.dir/Menu.cpp.o: ../GeneticAlgorithm.h
 CMakeFiles/PEA.dir/Menu.cpp.o: ../Matrix.h
 CMakeFiles/PEA.dir/Menu.cpp.o: ../Menu.cpp
 CMakeFiles/PEA.dir/Menu.cpp.o: ../Menu.h
@@ -34,6 +39,7 @@ CMakeFiles/PEA.dir/Timer.cpp.o: ../Timer.h
 
 CMakeFiles/PEA.dir/main.cpp.o: ../BranchBound.h
 CMakeFiles/PEA.dir/main.cpp.o: ../BruteForce.h
+CMakeFiles/PEA.dir/main.cpp.o: ../GeneticAlgorithm.h
 CMakeFiles/PEA.dir/main.cpp.o: ../Matrix.h
 CMakeFiles/PEA.dir/main.cpp.o: ../Menu.h
 CMakeFiles/PEA.dir/main.cpp.o: ../SimulatedAnnealing.h

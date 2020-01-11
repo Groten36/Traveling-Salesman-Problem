@@ -5,7 +5,7 @@
 #ifndef PEA_GENETICALGORITHM_H
 #define PEA_GENETICALGORITHM_H
 #include<vector>
-#include"Matrix.h";
+#include"Matrix.h"
 
 using namespace std;
 

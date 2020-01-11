@@ -107,7 +107,7 @@ void BranchBound::reduction(int curBound, int depth,int curCost,vector<int> curP
 
 
 
-    }
+
     void BranchBound::solve(int threads){
         int curBound=0;
         int start=1;
