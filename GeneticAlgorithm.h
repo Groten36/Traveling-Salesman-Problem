@@ -13,9 +13,11 @@ class GeneticAlgorithm : public Matrix{
     vector<vector<int>> population;
     int generations;
     int populationSize;
+    int numberOfParticipants;
 void generatePopulation();
 public:
     void solve();
+    vector<vector<int>> tournament();
     GeneticAlgorithm();
     ~GeneticAlgorithm();
 };
