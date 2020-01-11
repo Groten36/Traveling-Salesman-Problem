@@ -65,14 +65,6 @@ void BranchBound::reduction(int curBound, int depth,int curCost,vector<int> curP
         if (head[curPath[depth-1]][curPath[0]] != -1){
             fin = curCost +head[curPath[depth-1]][curPath[0]];
 
-            int tBound=0;
-            int fin;
-            mutex mx;
-            if(depth==curPath.size()){
-                mx.lock();
-                if (head[curPath[depth-1]][curPath[0]] != -1){
-                    fin = curCost +head[curPath[depth-1]][curPath[0]];
-
                     if (fin < minCost){
                         minPath=curPath;
                         minCost = fin;
@@ -81,7 +73,7 @@ void BranchBound::reduction(int curBound, int depth,int curCost,vector<int> curP
                 mx.unlock();
 
                 return;
-            }}
+            }
             for(auto i=start;i<end;i++){
 
                 mx.lock();
@@ -110,9 +102,7 @@ void BranchBound::reduction(int curBound, int depth,int curCost,vector<int> curP
                     visited[curPath[j]]=true;
                 mx.unlock();
             }
-            for(auto j=0;j<depth-1;j++)
-                visited[curPath[j]]=true;
-            mx.unlock();
+
         }
 
 

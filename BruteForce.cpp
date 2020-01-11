@@ -99,32 +99,6 @@ void BruteForce::permute(vector<int> curPath,int second,int last){
             mx.unlock();
         }while(next_permutation(curPath.begin(),curPath.end()));
 
-        do{
-            // curPath.erase(std::remove(curPath.begin(), curPath.end(), k), curPath.end());
-
-            curCost=0;
-            iter=0;
-            mx.lock();
-            if(k!=0)
-                curCost+=(head[0][k]+head[k][curPath[iter]]);
-            else
-                curCost+=head[0][iter];
-            for(auto i=1;i<curPath.size();i++){
-                curCost+=head[curPath[iter]][curPath[i]];
-                iter=i;
-            }
-            curCost+=head[curPath[iter]][0];
-            if(curCost<minCost) {
-                if(k!=0){
-                    curPath.insert(curPath.begin(),k);}
-                curPath.insert(curPath.begin(),0);
-                path = curPath;
-                minCost = curCost;
-
-            }
-            mx.unlock();
-        }while(next_permutation(curPath.begin(),curPath.end()));
-
         if(k!=0)
             curPath.insert(curPath.begin(),k);
     }
