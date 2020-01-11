@@ -12,9 +12,10 @@ using namespace std;
 class GeneticAlgorithm : public Matrix{
     vector<vector<int>> population;
     int generations;
-
-    void generatePopulation();
-
+    int populationSize;
+void generatePopulation();
+public:
+    void solve();
     GeneticAlgorithm();
     ~GeneticAlgorithm();
 };
