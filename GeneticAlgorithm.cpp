@@ -56,12 +56,47 @@ vector<vector<int>> GeneticAlgorithm::tournament(){
     return toReproduction;
 
 }
+
+vector<vector<int>> GeneticAlgorithm::crossover(vector<vector<int>> toReproduction) {
+    vector<vector<int>> newPopulation;
+    vector<int> parent1,parent2,child1,child2;
+    child1.resize(parent1.size());
+    child2.resize(parent2.size());
+    int pos1,pos2,begin,end;
+    random_device rd;
+    mt19937 rng(rd());
+    uniform_int_distribution<mt19937::result_type> rep(0,pow(cities,2));
+    uniform_int_distribution<mt19937::result_type> cross(0,cities-1);
+    do{
+        pos1=rep(rng);
+        do{
+        pos2=rep(rng);
+        }
+        while(pos2==pos1);
+        parent1=toReproduction[pos1];
+        parent2=toReproduction[pos2];
+        begin=cross(rng);
+        do {
+            end = cross(rng);
+        }while(end<=begin);
+        for(auto i=begin;i<end+1;i++){
+            child1[i]=parent1[i];
+            child2[i]=parent2[i];
+        }
+        
+
+    }while(newPopulation.size()<populationSize);
+
+
+}
 void GeneticAlgorithm::solve(){
+    populationSize=pow(cities,2);
     vector<vector<int>> toReproduction;
     generatePopulation();
 
     for(auto i=0;i<generations;i++){
         toReproduction=tournament();
+        population=crossover(toReproduction);
     }
 
 }
