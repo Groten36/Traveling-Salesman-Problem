@@ -116,18 +116,11 @@ int Matrix::cost(vector<int>& vec){
 
         //   std::cout<<head[vec[i]][vec[i++]]<<" ";
         path += head[vec[iter]][vec[i]];
-        iter = i;
+        iter++;
 
-        // std::cout<<head[vec[cities-1]][vec[0]];
-
-        //   std::cout<<head[vec[i]][vec[i++]]<<" ";
-        path += head[vec[iter]][vec[i]];
-        iter = i;
-    }
-// std::cout<<head[vec[cities-1]][vec[0]];
-
-path+=head[iter][vec[0]];
-return path;
+        }
+    path+=head[vec[iter]][vec[0]];
+    return path;
 }
 
 void Matrix::clear() {

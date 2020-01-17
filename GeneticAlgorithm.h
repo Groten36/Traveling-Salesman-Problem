@@ -16,6 +16,8 @@ class GeneticAlgorithm : public Matrix{
     int numberOfParticipants;
     void generatePopulation();
     vector<vector<int>> crossover(vector<vector<int>> toReproduction);
+    void mutation();
+    bool mutationOccured();
 public:
     void solve();
     vector<vector<int>> tournament();
