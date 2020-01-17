@@ -35,14 +35,14 @@ vector<vector<int>> GeneticAlgorithm::tournament(){
     vector<vector<int>> participants;
     vector<int> winner;
     vector<vector<int>> toReproduction;
-    int best,cur;
+    int best,cur,newPar;
     int positionOfWinner;
     random_device rd;
     mt19937 rng(rd());
-    uniform_int_distribution<mt19937::result_type> con(0,pow(cities,2));
+    uniform_int_distribution<mt19937::result_type> con(0,populationSize-1);
     for(auto j=0;j<population.size()/3;j++){
         best=INT32_MAX;
-        for(auto i=0;i<numberOfParticipants;i++) {
+        for(auto i=0;i<numberOfParticipants;i++){
             participants.push_back(population[con(rng)]);
             cur=cost(population[i]);
             if (cur < best) {
