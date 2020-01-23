@@ -33,7 +33,7 @@ void Menu::launch() {
         std::cout<<"5.Rozwiąż metodą Branch and Bound\n";
         std::cout<<"7.Rozwiąż metodą Symulowanego wyżarzania\n";
         std::cout<<"8.Rozwiąz metodą tabu search\n";
-        std::cout<<"9.Testy automatyczne\n";
+        std::cout<<"9.Rozwiąż metodą algorytmu genetycznego\n";
 //        std::cout<<"8.Rozwiąz metodą tabu search\n";
 
 
@@ -52,7 +52,7 @@ void Menu::launch() {
 
             case 7:timer.start();sa.solve();timer.stop();std::cout<<" Czas wykonania: "<<timer.time()<<" milisekund";break;
             case 8:timer.start();ts.solve();timer.stop();std::cout<<" Czas wykonania: "<<timer.time()<<" milisekund";break;
-            case 9:ga.solve();
+            case 9:timer.start();ga.solve();timer.stop();std::cout<<" Czas wykonania: "<<timer.time()<<" milisekund";break;
            /* case 9:{
                 std::ofstream out("TS21.txt");
                 {
